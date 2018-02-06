@@ -1,13 +1,7 @@
-/* ---- reset ---- */
-
-body {
+body{
+  border: 0;
   margin: 0;
   font:normal 75% Arial, Helvetica, sans-serif;
-}
-
-canvas {
-  display: block;
-  vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
@@ -16,7 +10,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #b61924;
+  background-color: black;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
