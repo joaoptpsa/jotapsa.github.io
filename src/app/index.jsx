@@ -1,12 +1,18 @@
 import * as React from 'react';
-import 'semantic-ui-css/semantic.min.css';
+import { Container } from 'semantic-ui-react';
 
-import MainContainer from './mainContainer';
+import MainContainer from '../components/mainContainer';
+import Footer from '../components/footer';
+import Heading from '../components/heading';
+import NavBar from '../components/navBar';
 
-class App extends React.Component {
-  render() {
-    return <MainContainer />;
-  }
-}
+const App = () => (
+  <Container fluid>
+    <NavBar />
+    <Heading />
+    <MainContainer />
+    <Footer />
+  </Container>
+);
 
 export default App;
